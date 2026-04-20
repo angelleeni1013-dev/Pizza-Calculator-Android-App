@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="Typos">0209295_DMT22113N_A1</string>
+
+    <!-- General Labels -->
+    <string name="pizza_calculator">Pizza Calculator</string>
+    <string name="num_of_people">Number of People</string>
+    <string name="adults">Adults</string>
+    <string name="children">Children</string>
+    <string name="enter_qty">Enter quantity</string>
+    <string name="default_count">0</string>
+
+    <!-- Stepper Descriptions -->
+    <string name="increment_adults_count">Increment Adults Count</string>
+    <string name="decrement_adults_count">Decrement Adults Count</string>
+    <string name="increment_children_count">Increment Children Count</string>
+    <string name="decrement_children_count">Decrement Children Count</string>
+
+    <!-- Hunger Level -->
+    <string name="hunger_level">Hunger Level</string>
+    <string name="light">Light</string>
+    <string name="medium">Medium</string>
+    <string name="ravenous">Ravenous</string>
+    <string name="note">Note: Each child eats half the amount of an adult.</string>
+
+    <!-- Slices -->
+    <string name="number_of_slices">No. of Slices per Tray</string>
+    <string name="enter_slice_num">Enter number</string>
+
+    <!-- Pizza Type -->
+    <string name="pizza_type">Types of Pizza</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="durian">Durian</string>
+    <string name="margherita">Margherita</string>
+    <string name="select_pepperoni_pizza_type">Select Pepperoni Pizza</string>
+    <string name="select_durian_pizza_type">Select Durian Pizza</string>
+    <string name="select_margherita_pizza_type">Select Margherita Pizza</string>
+
+    <!-- Action Buttons -->
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    <string name="view_history">View History</string>
+
+    <!-- Result/History Labels -->
+    <string name="current_summary">Current Calculation Result</string>
+    <string name="calculation_history">Calculation History</string>
+    <string name="results">Awaiting calculation…</string>
+    <string name="no_history">No previous history.</string>
+
+    <!-- Toast or Validation -->
+    <string name="error_empty_field">Please fill in all required fields before calculating.</string>
+    <string name="toast_reset">All fields have been cleared.</string>
+    <string name="toast_saved">Calculation saved to history.</string>
+    <string name="music_start">Music Playing 🎵</string>
+    <string name="music_pause">Music Paused ⏸️</string>
+    <string name="pizza_logo_desc">Toggle music playback</string>
+
+    <!-- Result Template -->
+    <string name="current_result_summary">
+        🍕 Type: %1$s\n
+        👨‍👩‍👧 People: %2$s\n
+        😋 Hunger: %3$s\n
+        🔢 Slices per pizza: %4$d\n
+        🍰 Total slices needed: %5$d\n
+        🧮 Pizzas needed: %6$d\n
+        🔥 Estimated Total Calories: %7$d kcal
+    </string>
+
+    <!-- History Entry Template -->
+    <string name="history_entry_format">
+        \n%1$s %2$s\n
+        🍕 Type: %3$s | 🔥 Calories: %9$d kcal\n
+        👨‍👩‍👧 People: %4$s\n
+        😋 Hunger: %5$s (%6$d slices/pizza)\n
+        🍰 Slices: %7$d | 🧮 Pizzas: %8$d\n
+        %10$s
+    </string>
+</resources>
